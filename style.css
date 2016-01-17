@@ -1,0 +1,111 @@
+/*Header-Logo*/
+.logo {
+	text-align: center;
+	margin: 0 auto;
+}
+.logo img{
+	height: 200px;
+	width: 40%;
+	padding: 20px;
+}
+.page-divider-top {
+	border-style: solid;
+	border-color: red;
+	border-width: 8px;
+	padding-bottom: 0px;
+}
+.page-divider-bottom {
+	border-style: solid;
+	border-color: grey;
+	border-width: 8px;
+	padding-top: 0px;
+	position: relative;
+	bottom: 14px;
+}
+
+/*Billboard*/
+.billboard h1 {
+	font-size: 26pt;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 12px;
+}
+.billboard .item-image {
+	margin: 0 auto;
+	text-align: center;
+}
+.item-image img {
+	height: 300px;
+	width: 400px;
+}
+
+/*Title Sections (Titles)*/
+.row {
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+.row .title {
+	background-color: red;
+	border-radius: 10px;
+	box-shadow: 1px 3px 4px black;
+}
+.row .title h1 {
+	font-size: 18pt;
+	padding: 5px;
+	color: white;
+}
+/*Thumbnail and Slider*/
+.select img {
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+}
+/*Title Sections (Content)*/
+.content .notes li {
+	text-align: left;
+	font-size: 12pt;
+}
+.content-desc p {
+	text-align: left;
+	font-size: 12pt;
+}
+.content-ship p {
+	text-align: left;
+	font-size: 12pt;
+}
+.content-model p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20pt;
+}
+
+/*Payments*/
+.sub-middle {
+	text-align: center;
+}
+.sub-middle .payments img {
+	margin-left: 30px;
+}
+
+/*Footer*/
+.footer {
+	width: 100%;
+    background: grey;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	padding-top: 5px;
+}
+
+/*Footer (text)*/
+.footer p {
+	color: white;
+	font-size: 12pt;
+	padding: 10px;
+}
